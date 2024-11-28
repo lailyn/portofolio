@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Layout</title>
+	<style type="text/css">
+	.container{
+		width: 1000px;
+		height: 800px;
+		background-color: orange;
+		border: 1px solid;
+		margin: 0px auto;
+	}
+	.header{		
+		width: 1000px;
+		height: 200px;			
+		border: 1px solid;
+		margin: 0px auto;
+		background: url("https://ecs7.tokopedia.net/blog-tokopedia-com/uploads/2017/08/Banner-Blog-Seller-Center-1200x630.jpg") no-repeat fixed;
+	}
+	.navigation{
+		width: 1000px;
+		height: 40px;
+		background-color: #99ffff;
+		border: 1px solid;
+		margin: 0px auto;
+	}
+	.sidebar{
+		float: left;
+		width: 300px;
+		height: 500px;
+		background-color: pink;
+	}
+	.main{
+		float: right;
+		width: 700px;
+		height: 500px;
+		background-color: purple;
+	}
+	.clear{
+		clear: both;
+	}
+	.footer{
+		width: 1000px;
+		height: 100px;
+		background-color: black;
+	}
+	.menu{
+		list-style: none;
+	}
+	.list{
+		display: inline-block;
+		margin-right: 10px;
+	}
+	a{
+		text-decoration: none;
+	}
+	</style>
+</head>
+<body>
+<div class="container">
+	<div class="header"></div>
+	<div class="navigation">
+		<ul class="menu">
+			<li class="list"><a href='https://google.com'>Beranda</a></li>
+			<li class="list">Profil</li>
+			<li class="list">Kontak</li>
+		</ul>
+	</div>
+	<div class="sidebar">
+		<h3>Artikel Terbaru</h3>
+		<ul class="menu">
+			<li>Artikel 1</li>
+			<li>Artikel 2</li>
+			<li>Artikel 3</li>
+		</ul>
+	</div>
+	<div class="main">
+		<p>
+			Seperti diberitakan sebelumnya bahwa Majelis Kehormatan Mahkamah Konstitusi (MKMK) telah mencopot jabatan Anwar Usman sebagai ketua Mahkamah Konstitusi (MK) pada Selasa (8/11/2023).
+
+Usai dicopot sebagai ketua MK, Anwar mengaku dirinya telah menjadi hakim Mahkamah Agung sejak tahun 1985.
+		</p>
+	</div>
+	<div class="clear"></div>
+	<div class="footer"></div>
+</div>
+</body>
+</html>
