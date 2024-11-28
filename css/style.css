@@ -1,0 +1,63 @@
+/* Gaya Umum */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header */
+header {
+    background: #007BFF;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+/* Section */
+section {
+    padding: 2rem;
+    margin: 1rem auto;
+    background: white;
+    border-radius: 8px;
+    max-width: 800px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+    color: #007BFF;
+    border-bottom: 2px solid #007BFF;
+    display: inline-block;
+    margin-bottom: 1rem;
+}
+
+/* Foto Portrait */
+.portrait {
+    display: block;
+    margin: 0 auto 1rem;
+    width: auto;
+    height: 300px;
+    border-radius: 8px;
+    object-fit: cover;
+}
+
+/* Daftar */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem 0;
+    background: #007BFF;
+    color: white;
+    margin-top: 2rem;
+}
